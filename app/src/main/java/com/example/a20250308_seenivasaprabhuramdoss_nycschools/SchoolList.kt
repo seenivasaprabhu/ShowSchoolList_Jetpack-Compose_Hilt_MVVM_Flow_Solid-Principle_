@@ -8,6 +8,7 @@ data class SchoolList(
     @SerializedName("overview_paragraph") val overview_paragraph: String?,
     @SerializedName("borough") val borough: String?,
     @SerializedName("location") val location: String?,
-    @SerializedName("phone_number") val phone: String?,
+    @SerializedName("phone_number") val phone_number: String?,
     @SerializedName("website") val website: String?,
+    @SerializedName("school_email") val school_email: String?,
 )
